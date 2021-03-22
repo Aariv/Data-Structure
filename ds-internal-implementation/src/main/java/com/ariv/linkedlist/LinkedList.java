@@ -65,7 +65,7 @@ public class LinkedList<T> implements Iterable<T> {
 
 	/**
 	 * 
-	 * @return the size of the list
+	 * @return the size of the list O(1)
 	 */
 	public int size() {
 		return size;
@@ -73,14 +73,14 @@ public class LinkedList<T> implements Iterable<T> {
 
 	/**
 	 * 
-	 * @return whether the list has elements
+	 * @return whether the list has elements O(1)
 	 */
 	public boolean isEmpty() {
 		return size() == 0;
 	}
 
 	/**
-	 * Add a new element at the tail
+	 * Add a new element at the tail O(1)
 	 * 
 	 * @param ele
 	 */
@@ -92,7 +92,7 @@ public class LinkedList<T> implements Iterable<T> {
 	 * 
 	 * @param ele
 	 * 
-	 *            Adding an element at the end of the list
+	 *            Adding an element at the end of the list O(1)
 	 */
 	public void addLast(T ele) {
 		if (isEmpty()) {
@@ -105,7 +105,7 @@ public class LinkedList<T> implements Iterable<T> {
 	}
 
 	/**
-	 * Adding an element at the beginning of the list
+	 * Adding an element at the beginning of the list O(1)
 	 * 
 	 * @param ele
 	 */
@@ -120,7 +120,7 @@ public class LinkedList<T> implements Iterable<T> {
 	}
 
 	/**
-	 * Adding an element at the specified index
+	 * Adding an element at the specified index O(1)/ O(n)
 	 * 
 	 * @param index
 	 * @param ele
@@ -151,7 +151,7 @@ public class LinkedList<T> implements Iterable<T> {
 	}
 
 	/**
-	 * Retrive the first element
+	 * Retrive the first element O(1)
 	 * 
 	 * @return
 	 * @throws Exception
@@ -164,7 +164,7 @@ public class LinkedList<T> implements Iterable<T> {
 	}
 
 	/**
-	 * Retrive the last element
+	 * Retrive the last element O(1)
 	 * 
 	 * @return
 	 * @throws Exception
@@ -177,7 +177,7 @@ public class LinkedList<T> implements Iterable<T> {
 	}
 
 	/**
-	 * Remove the first element
+	 * Remove the first element O(1)
 	 * 
 	 * @return
 	 */
@@ -199,7 +199,7 @@ public class LinkedList<T> implements Iterable<T> {
 	}
 
 	/**
-	 * Remove the last element
+	 * Remove the last element O(1)
 	 * 
 	 * @return
 	 */
@@ -221,7 +221,7 @@ public class LinkedList<T> implements Iterable<T> {
 	}
 
 	/**
-	 * Remove the arbitrary node.
+	 * Remove the arbitrary node. (1)
 	 * 
 	 * @param node
 	 * @return
@@ -246,7 +246,7 @@ public class LinkedList<T> implements Iterable<T> {
 	}
 
 	/**
-	 * Remove the element at the specified index.
+	 * Remove the element at the specified index. O(n)
 	 * 
 	 * @param index
 	 * @return
@@ -273,7 +273,7 @@ public class LinkedList<T> implements Iterable<T> {
 	}
 
 	/**
-	 * Remove based on the data
+	 * Remove based on the data O(n)
 	 * 
 	 * @param obj
 	 * @return
@@ -299,7 +299,7 @@ public class LinkedList<T> implements Iterable<T> {
 	}
 
 	/**
-	 * Retrive the index of the specified data
+	 * Retrive the index of the specified data O(n)
 	 * 
 	 * @param obj
 	 * @return
@@ -325,7 +325,7 @@ public class LinkedList<T> implements Iterable<T> {
 	}
 
 	/**
-	 * Verify if the element exist in the list
+	 * Verify if the element exist in the list O(n)
 	 * 
 	 * @param obj
 	 * @return
@@ -363,7 +363,7 @@ public class LinkedList<T> implements Iterable<T> {
 	}
 
 	/**
-	 * Display the list
+	 * Display the list O(n)
 	 */
 	@Override
 	public String toString() {
