@@ -6,7 +6,7 @@ package com.ariv.hashtable;
 import java.util.LinkedList;
 
 /**
- * @author al
+ * @author Ariv
  *
  */
 public class HashTableTest {
@@ -24,9 +24,7 @@ public class HashTableTest {
 		
 		domainMap.put("vererrg.com", "192.45.523.23");
 		
-		for(String entry: domainMap) {
-			System.out.println(entry);
-		}
+		System.out.println(domainMap.toString());
 		
 		LinkedList<Integer> list = new LinkedList<>();
 	}

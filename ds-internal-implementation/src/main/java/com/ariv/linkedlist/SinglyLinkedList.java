@@ -4,7 +4,7 @@
 package com.ariv.linkedlist;
 
 /**
- * @author al
+ * @author Ariv
  *
  */
 public class SinglyLinkedList {

@@ -6,7 +6,7 @@ package com.ariv.linkedlist;
 import java.util.Iterator;
 
 /**
- * @author al
+ * @author Ariv
  *
  */
 public class LinkedList<T> implements Iterable<T> {

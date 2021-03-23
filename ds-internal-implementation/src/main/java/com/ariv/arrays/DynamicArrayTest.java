@@ -4,7 +4,7 @@
 package com.ariv.arrays;
 
 /**
- * @author al
+ * @author Ariv
  *
  */
 public class DynamicArrayTest {

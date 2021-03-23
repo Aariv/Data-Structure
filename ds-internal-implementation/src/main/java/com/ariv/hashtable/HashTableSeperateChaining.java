@@ -6,7 +6,7 @@ package com.ariv.hashtable;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Iterator;
-import java.util.LinkedList;
+import com.ariv.linkedlist.LinkedList;
 import java.util.List;
 
 class Entry<K, V> {
